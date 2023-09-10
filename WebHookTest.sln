@@ -3,10 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1706.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLineWeb", "src\AirLineWeb\AirLineWeb.csproj", "{F6DF6AC1-158C-4B9A-B17D-7BA907B84060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirLineSendAgent", "src\AirLineSendAgent\AirLineSendAgent.csproj", "{3C56D2FA-08D2-432E-8F44-2EF3C394D148}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAgentWeb", "src\TravelAgentWeb\TravelAgentWeb.csproj", "{84B62267-3DF6-42FF-833D-101C62342CAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{07AADD96-9C87-487C-AABE-0ECA2E701725}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6DF6AC1-158C-4B9A-B17D-7BA907B84060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6DF6AC1-158C-4B9A-B17D-7BA907B84060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C56D2FA-08D2-432E-8F44-2EF3C394D148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C56D2FA-08D2-432E-8F44-2EF3C394D148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B62267-3DF6-42FF-833D-101C62342CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B62267-3DF6-42FF-833D-101C62342CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
